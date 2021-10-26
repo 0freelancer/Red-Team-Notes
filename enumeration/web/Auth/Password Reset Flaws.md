@@ -1,6 +1,6 @@
 ## Password Reset Flaws
 
-1. Account Takeover: Password Reset With Manipualating Email Parameter
+### 1. Account Takeover: Password Reset With Manipualating Email Parameter
 
 ```
 POST /reset
@@ -24,7 +24,7 @@ or
     https://twitter.com/HusseiN98D/status/1254888748216655872
     https://twitter.com/HusseiN98D/status/1254888748216655872/photo/1
 
-2. Bruteforce the OTP code
+### 2. Bruteforce the OTP code
 ```
 POST /reset
 [...]
@@ -33,7 +33,7 @@ email=victim@mail.com&code=$123456$
 ```
  *Use IP-Rotator on burpsuite to bypass IP based ratelimit.
 
-3. Host header Injection
+### 3. Host header Injection
 ```
 POST /reset
 Host: evil.com
@@ -54,7 +54,7 @@ email=victim@mail.com
     https://medium.com/@swapmaurya20/password-reset-poisoning-leading-to-account-takeover-f178f5f1de87
 
 
-4. Full Account Takeover via Changing Email And Password of any User through API Parameters
+### 4. Full Account Takeover via Changing Email And Password of any User through API Parameters
 ```
 POST /api/changepass
 [...]
@@ -66,7 +66,7 @@ Reference
     https://medium.com/@adeshkolte/full-account-takeover-changing-email-and-password-of-any-user-through-api-parameters-3d527ab27240
 
 
-5.Response manipulation: Replace Bad Response With Good One
+### 5.Response manipulation: Replace Bad Response With Good One
 ```
 HTTP/1.1 401 Unauthorized
 (“message”:”unsuccessful”,”statusCode:403,”errorDescription”:”Unsuccessful”)
@@ -78,7 +78,7 @@ HTTP/1.1 200 OK
 ```
     https://medium.com/@innocenthacker/how-i-found-the-most-critical-bug-in-live-bug-bounty-event-7a88b3aa97b3
 
-6.No Rate Limiting: Email Bombing
+### 6.No Rate Limiting: Email Bombing
 
     Start the Burp Suite and Intercept the password reset request
     Send to intruder
@@ -87,17 +87,17 @@ HTTP/1.1 200 OK
     https://hackerone.com/reports/280534
     https://hackerone.com/reports/794395
     
-7.Password Reset Token Leak Via Referrer
+### 7.Password Reset Token Leak Via Referrer
     https://hackerone.com/reports/342693
     https://hackerone.com/reports/272379
     https://hackerone.com/reports/737042
     https://medium.com/@rubiojhayz1234/toyotas-password-reset-token-and-email-address-leak-via-referer-header-b0ede6507c6a
     https://medium.com/@shahjerry33/password-reset-token-leak-via-referrer-2e622500c2c1
 
-8. Using Expired Token
+### 8. Using Expired Token
 Check if the expired token can be reused
 
-9. Find out how the tokens generate
+### 9. Find out how the tokens generate
 - Generated based on TimeStamp
 - Generated based on the ID of the user
 - Generated based on the email of the user
