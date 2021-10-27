@@ -29,3 +29,6 @@ email=victim@mail.com&password=hacked
   5.If you find xss you can stole the cookies of victim and using session hijacking you can takeover the account of victim.
   
   
+### Account takeover via cookie stealing
+
+    https://hackerone.com/reports/534450
