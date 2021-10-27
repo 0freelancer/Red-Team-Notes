@@ -49,20 +49,8 @@ Code for any user acc can be used to bypass the 2FA
 Bypassing 2FA by abusing the Backup code feature
 Use the above mentioned techniques to bypass Backup Code to remove/reset 2FA restrictions
 
+---------------------------### Brute force--------------------------------------------------------
 
-## Lack of Brute-Force Protection
-
-This involves all sort of issues which comes under security misconfiguration such as lack of rate limit, no brute-force protection, etc.
-
-1. Request 2FA code and capture this request.
-
-2. Repeat this request for 100–200 times and if there is no limitation set, that’s a rate limit issue.
-
-3. At 2FA Code Verification page, try to brute-force for valid 2FA and see if there is any success.
-
-4. You can also try to initiate, requesting OTPs at one side and brute-forcing at
-
-another side. Somewhere the OTP will match in middle and may give you a quick result.
 
 ## .Password Reset/Email Change — 2FA Disable
 
@@ -73,20 +61,9 @@ be an issue for some organizations. However, depends on case by case basis.
 
     Use this valid 2FA code in the victim 2FA Request and see if it bypass the 2FA Protection.
 
-## CSRF on 2FA Disable Feature
+## CSRF/Clickjacking
 
-1. Navigate to 2FA Page and Click on Disable and capture this request with Burp Suite & Generate a CSRF PoC
-
-2. Send this PoC to the victim user and check if CSRF happens successfully and removes the 2FA from victim account.
-
-3. Also check if there is any authentication confirmation such as password or 2FA code required before disabling 2FA
-
-
-## .Clickjacking on 2FA DisableFeature
-
-1. Try to Iframe the page where the application allows a user to disable 2FA
-
-2. If Iframe is successful, try to perform a social engineering attack to manipulate victim to fall in your trap.
+Check if there is a CSRF or a Clickjacking vulnerability to disable the 2FA. 
 
 
 ### References
