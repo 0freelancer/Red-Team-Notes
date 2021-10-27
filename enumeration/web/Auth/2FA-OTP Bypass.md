@@ -36,16 +36,31 @@ There is lot of different 2FA Bypass Techniques given below. Check it.
     3. Also, try requesting multiple 2FA codes and see if previously requested Codes expire or not when a new code is requested
     4. Also, try to re-use the previously used code after long time duration say 1 day or more. That will be an potential issue as 1 day is enough duration to         crack and guess a 6-digit 2FA code.
 
+## Bypass using the "Remember Me" functionality
+    # If 2FA is attached using a cookie, the cookie value must be unguessable
+    # If 2FA is attached to an IP address, you can try to figure out the IP address of the victim and impersonate it using the X-Forwarded-For header.
+
  ## 5.Enabling 2FA Doesn’t Expire Previous Session
 
-1. Login to the application in two different browsers and enable 2FA from 1st session.
-
-2. Use 2nd session and if it is not expired, it could be an issue if there is an insufficient session expiration issue. In this scenario if an attacker hijacks an active session before 2FA, it is possible to carry out all functions without a need for 2FA
+    1. Login to the application in two different browsers and enable 2FA from 1st session.
+    2. Use 2nd session and if it is not expired, it could be an issue if there is an insufficient session expiration issue. In this scenario if an attacker           hijacks an active session before 2FA, it is possible to carry out all functions without a need for 2FA
 
 ## 7.Missing 2FA Code IntegrityValidation
 
-Code for any user acc can be used to bypass the 2FA
- Request a 2FA code from Attacker Account.
+    Code for any user acc can be used to bypass the 2FA
+    Request a 2FA code from Attacker Account.
+    # Bypass replacing part of the request from the session
+
+    If a parameter with a specific value is sent to verify the code in the request, try sending the value from the request of another account.
+    For example, when sending an OTP code, the form ID/user ID or cookie is checked, which is associated with sending the code. If we apply the data from the         parameters of the account on which you want to bypass code verification (Account 1) to a session of a completely different account (Account 2), receive the       code and enter it on the second account, then we can bypass the protection on the first account. After reloading the page, 2FA should disappear.
+
+
+## Improper access control bug on the 2FA dialog page
+   
+    Sometimes a dialog page for entering 2FA is presented as a URL with parameters. Access to such a page with parameters in the URL with cookies that do not         match those used to generate the page or without cookies at all is not safe. But if the developers decided to accept the risks, then you need to go through       a few  important points:
+        1) Does the link for 2FA dialog page expire;
+        2) Whether the link is indexed in search engines.
+    If the link has a long period of existence and/or the search engines contain working links for 2FA input/links can be indexed (there are no rules in               robots.txt   / meta tags), then there is a possibility of using a 2FA bypass mechanism on the 2FA input page, in which you can completely bypass entering         login and password,   and gain access to someone else’s account
 
 ## Brute force
   ### Lack of rate limit
@@ -77,6 +92,12 @@ Code for any user acc can be used to bypass the 2FA
 Bypassing 2FA by abusing the Backup code feature
 Use the above mentioned techniques to bypass Backup Code to remove/reset 2FA restrictions
 
+## 7. When disabling 2FA, the current code or password is not requested.
+    Check if there is a CSRF or a Clickjacking vulnerability to disable the 2FA.
+     1. Assuming that you are able to perform email change or password reset for the victim user or make victim user do it by any means possible.
+     2. 2FA is disabled after the email is changed or password is reset. This could
+    be an issue for some organizations. However, depends on case by case basis.
+  Use this valid 2FA code in the victim 2FA Request and see if it bypass the 2FA Protection.
 
 
 
