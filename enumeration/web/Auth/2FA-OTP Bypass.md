@@ -84,7 +84,13 @@ There is lot of different 2FA Bypass Techniques given below. Check it.
   ### Client side rate limit bypass
  
   ###  Lack of Rate-limit in the user’s account
-
+  
+  ### Lack of rate limit re-sending the code via SMS
+      You want be able to bypass the 2FA but you will be able to waste money of the company.
+      
+  ### Infinite OTP regeneration
+      If you can generate a new OTP infinite times, the OTP is simple enough (4 numbers), and you can try up to 4 or 5 tokens per generated OTP, you can just try       the same 4 or 5 tokens every time and generate OTPs until it matches the ones you are using.
+      
 ## 6. insufficient censorship of personal data on the 2FA page.
 
 ## Backup Code Abuse
