@@ -19,10 +19,10 @@ or
 or
 6 email= victim@gmail.com&code= my password reset token
 ```
-    https://medium.com/@0xankush/readme-com-account-takeover-bugbounty-fulldisclosure-a36ddbe915be
-    https://ninadmathpati.com/2019/08/17/how-i-was-able-to-earn-1000-with-just-10-minutes-of-bug-bounty/
-    https://twitter.com/HusseiN98D/status/1254888748216655872
-    https://twitter.com/HusseiN98D/status/1254888748216655872/photo/1
+https://medium.com/@0xankush/readme-com-account-takeover-bugbounty-fulldisclosure-a36ddbe915be
+https://ninadmathpati.com/2019/08/17/how-i-was-able-to-earn-1000-with-just-10-minutes-of-bug-bounty/
+https://twitter.com/HusseiN98D/status/1254888748216655872
+https://twitter.com/HusseiN98D/status/1254888748216655872/photo/1
 
 ### 2. Bruteforce the OTP code
 ```
@@ -47,11 +47,11 @@ X-Forwarded-Host: evil.com
 [...]
 email=victim@mail.com
 ```
-    https://hackerone.com/reports/226659
-    https://hackerone.com/reports/167631
-    https://www.acunetix.com/blog/articles/password-reset-poisoning/
-    https://pethuraj.com/blog/how-i-earned-800-for-host-header-injection-vulnerability/
-    https://medium.com/@swapmaurya20/password-reset-poisoning-leading-to-account-takeover-f178f5f1de87
+https://hackerone.com/reports/226659
+https://hackerone.com/reports/167631
+https://www.acunetix.com/blog/articles/password-reset-poisoning/
+https://pethuraj.com/blog/how-i-earned-800-for-host-header-injection-vulnerability/
+https://medium.com/@swapmaurya20/password-reset-poisoning-leading-to-account-takeover-f178f5f1de87
 
 
 ### 4. Full Account Takeover via Changing Email And Password of any User through API Parameters
@@ -63,7 +63,7 @@ POST /api/changepass
 ```
 Reference
 
-    https://medium.com/@adeshkolte/full-account-takeover-changing-email-and-password-of-any-user-through-api-parameters-3d527ab27240
+  https://medium.com/@adeshkolte/full-account-takeover-changing-email-and-password-of-any-user-through-api-parameters-3d527ab27240
 
 
 ### 5.Response manipulation: Replace Bad Response With Good One
@@ -76,7 +76,7 @@ Change Response
 HTTP/1.1 200 OK
 (“message”:”success”,”statusCode:200,”errorDescription”:”Success”)
 ```
-    https://medium.com/@innocenthacker/how-i-found-the-most-critical-bug-in-live-bug-bounty-event-7a88b3aa97b3
+ https://medium.com/@innocenthacker/how-i-found-the-most-critical-bug-in-live-bug-bounty-event-7a88b3aa97b3
 
 ### 6.No Rate Limiting: Email Bombing
 
@@ -84,15 +84,15 @@ HTTP/1.1 200 OK
     Send to intruder
     Use null payload
 
-    https://hackerone.com/reports/280534
-    https://hackerone.com/reports/794395
+ https://hackerone.com/reports/280534
+ https://hackerone.com/reports/794395
     
 ### 7.Password Reset Token Leak Via Referrer
-    https://hackerone.com/reports/342693
-    https://hackerone.com/reports/272379
-    https://hackerone.com/reports/737042
-    https://medium.com/@rubiojhayz1234/toyotas-password-reset-token-and-email-address-leak-via-referer-header-b0ede6507c6a
-    https://medium.com/@shahjerry33/password-reset-token-leak-via-referrer-2e622500c2c1
+  https://hackerone.com/reports/342693
+  https://hackerone.com/reports/272379
+  https://hackerone.com/reports/737042
+  https://medium.com/@rubiojhayz1234/toyotas-password-reset-token-and-email-address-leak-via-referer-header-b0ede6507c6a
+  https://medium.com/@shahjerry33/password-reset-token-leak-via-referrer-2e622500c2c1
 
 ### 8. Using Expired Token
 Check if the expired token can be reused
