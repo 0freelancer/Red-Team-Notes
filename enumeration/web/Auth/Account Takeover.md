@@ -31,4 +31,4 @@ email=victim@mail.com&password=hacked
   
 ### Account takeover via cookie stealing
 
-    https://hackerone.com/reports/534450
+ https://hackerone.com/reports/534450
