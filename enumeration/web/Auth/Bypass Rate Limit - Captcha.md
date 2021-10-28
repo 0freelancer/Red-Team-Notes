@@ -1,4 +1,4 @@
-# Bypass Rate Limit
+#  Rate Limit
 
 ## 1 HTTP Methods
     If the request goes on GET try to change it to POST, PUT, etc.,
