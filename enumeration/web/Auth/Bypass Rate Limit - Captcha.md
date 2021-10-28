@@ -19,20 +19,13 @@ X-Custom-IP-Authorization: 127.0.0.1
 #or use double X-Forwared-For header
 X-Forwarded-For:
 X-Forwarded-For: 127.0.0.1
-
 ```
-
-
-
-
-
 
 ## 3.Using Special Characters
   ```  
     Adding Null Byte ( %0d , %2e , %09 , %20 , %0, %00, %0d%0a, %0a, %0C) at the end of the Email email=victim@gmail.com%00
     Try adding a Space Character after a Email. ( Not Encoded ) {"email":"victim@gmail.com "}
     Adding a slash(/) at the end of api endpoint can also Bypass Rate Limit. domain.com/v1/login -> domain.com/v1/login/
-
 ```
 
 
@@ -47,6 +40,8 @@ X-Forwarded-For: 127.0.0.1
     When brute-force, try passing several values in one request at once, for instance:
     phone=+17342239011&code[]=123456&code[]=654321&...&code[]=331337
     
+## 6 Use different params: 
+    sign-up, Sign-up, SignUp
     
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Captcha
