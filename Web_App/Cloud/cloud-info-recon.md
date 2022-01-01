@@ -2,7 +2,7 @@
 
 
 
-```text
+```text 
 # Azure IP Ranges
 https://azurerange.azurewebsites.net/
 
