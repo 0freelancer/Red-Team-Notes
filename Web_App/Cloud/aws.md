@@ -7,7 +7,7 @@ Auth methods:
 • Programmatic access - Access + Secret Key
    ◇ Secret Access Key and Access Key ID for authenticating via scripts and CLI
 • Management Console Access
-   ◇ Web Portal Access to AWS
+   ◇ Web Portal Access to AWS  
 
 Recon:
 • AWS Usage
