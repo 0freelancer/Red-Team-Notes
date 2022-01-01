@@ -249,8 +249,10 @@ header('Location: http://127.0.0.1:8080/status');
 # Tool
 # https://h.43z.one/ipconverter/
 ```
+## SSRF Recources
+https://infosecwriteups.com/exploiting-server-side-request-forgery-ssrf-vulnerability-faeb7ddf5d0e
 
 ## Mindmap
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
