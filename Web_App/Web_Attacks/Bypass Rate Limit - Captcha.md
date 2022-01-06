@@ -43,6 +43,20 @@ X-Forwarded-For: 127.0.0.1
 ## 6 Use different params: 
     sign-up, Sign-up, SignUp
     
+## 7 Confuse server with correct attempts
+    
+    If the server is blocking you after 20 attempts, Try bruteforcing with 19 attempts and use your credentials to login to your account on 20th attempt and then     repeat the process.
+    
+## 8 - Updating target Paths
+
+appending random param=value may sometimes bypass rate limit on the endpoint
+
+Eg:
+- Bruteforce /api/v1/users/<id>
+- Got blocked after 200 attempts
+- Now Bruteforce /api/v1/users/<id>?xyz=123
+- and change the param=value after each 200 attempts
+    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Captcha
 ## Changing the request method, 
