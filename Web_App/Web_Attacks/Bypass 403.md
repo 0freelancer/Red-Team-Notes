@@ -31,5 +31,5 @@ http://target.com/./admin/./ => 200
 http://target.com/aDmIN
 ```
 
-Source: [@iam_j0ker](https://twitter.com/iam_j0ker)
+Source: [@iam_j0ker](https://twitter.com/iam_j0ker) 
 
