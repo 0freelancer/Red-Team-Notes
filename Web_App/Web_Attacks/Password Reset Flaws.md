@@ -31,7 +31,7 @@ POST /reset
 email=victim@mail.com&code=$123456$
 
 ```
- *Use IP-Rotator on burpsuite to bypass IP based ratelimit.
+ *Use IP-Rotator on burpsuite to bypass IP based ratelimit. 
 
 ### 3. Host header Injection
 ```
