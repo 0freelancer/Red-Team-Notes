@@ -29,7 +29,7 @@ There is lot of different 2FA Bypass Techniques given below. Check it.
     1. Directly Navigate to the page which comes after 2FA or any other authenticated page of the application.
     2. If there is no success, change the refer header to the 2FA page URL. This may fool application to pretend as if the request came after satisfying 2FA           Condition.
  
-## 4. 2FA Code Reusability
+## 4. 2FA Code Reusability 
 
     1. Request a 2FA code and use it
     2. Now, Re-use the 2FA code and if it is used successfully that’s an issue.
