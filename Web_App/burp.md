@@ -117,7 +117,7 @@ Works on most of issues likq SQLi
 * [Retire.js](https://portswigger.net/bappstore/36238b534a78494db9bf2d03f112265c) Passive scan to find vulnerable JavaScript libraries
 * [Web Cache Deception Scanner](https://portswigger.net/bappstore/7c1ca94a61474d9e897d307c858d52f0) Active scan for Web Cache Deception vulnerability
 * [Cookie decrypter](https://portswigger.net/bappstore/76c500c3fdba4a37a6fca46fe18d8ada) Passive check for decrypt/decode Netscaler, F5 BigIP, and Flask cookies
-* [Reflector](https://github.com/elkokc/reflector) Passive scan to find reflected XSS
+* [Reflector](https://github.com/elkokc/reflector) Passive scan to find reflected XSS 
 * [J2EEScan](https://portswigger.net/bappstore/7ec6d429fed04cdcb6243d8ba7358880) Active checks to discover different kind of J2EE vulnerabilities
 * [HTTP Request Smuggler](https://portswigger.net/bappstore/aaaa60ef945341e8a450217a54a11646) Active scanner and launcher for HTTP Request Smuggling attacks
 * [Flow](https://portswigger.net/bappstore/ee1c45f4cc084304b2af4b7e92c0a49d) History of all burp tools, extensions and tests
