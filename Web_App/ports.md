@@ -32,7 +32,7 @@ nmap -p22 10.11.1.1 --script ssh-auth-methods --script-args="ssh.user=admin"
 
 # User can ask to execute a command right after authentication before it’s default command or shell is executed
 $ ssh -v user@10.10.1.111 id
-...
+... 
 Password:
 debug1: Authentication succeeded (keyboard-interactive).
 Authenticated to 10.10.1.111 ([10.10.1.1114]:22).
