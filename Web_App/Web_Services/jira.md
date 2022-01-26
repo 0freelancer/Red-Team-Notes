@@ -1,6 +1,6 @@
 # Jira
 
-```bash
+```bash 
 # Jira Scanner
 # https://github.com/bcoles/jira_scan
 
