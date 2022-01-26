@@ -22,7 +22,7 @@ import pyrebase
 config = {
   "apiKey": "FIREBASE_API_KEY",
   "authDomain": "FIREBASE_AUTH_DOMAIN_ID.firebaseapp.com",
-  "databaseURL": "https://FIREBASE_AUTH_DOMAIN_ID.firebaseio.com",
+  "databaseURL": "https://FIREBASE_AUTH_DOMAIN_ID.firebaseio.com", 
   "storageBucket": "FIREBASE_AUTH_DOMAIN_ID.appspot.com",
 }
 
