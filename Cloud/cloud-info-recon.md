@@ -7,7 +7,7 @@
 https://azurerange.azurewebsites.net/
 
 # AWS IP Range
-https://ip-ranges.amazonaws.com/ip-ranges.json
+https://ip-ranges.amazonaws.com/ip-ranges.json 
 - Get creation date
 jq .createDate < ip-ranges.json
 - Get info for specific region
