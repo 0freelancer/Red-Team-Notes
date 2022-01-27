@@ -1,5 +1,5 @@
 # Azure
-
+ 
 ## Basic Info
 
 ```text
@@ -8,7 +8,7 @@ https://github.com/dirkjanm/ROADtools
 https://github.com/dafthack/PowerMeta
 https://github.com/NetSPI/MicroBurst
 https://github.com/nccgroup/ScoutSuite
-https://github.com/hausec/PowerZure
+https://github.com/hausec/PowerZure 
 https://github.com/fox-it/adconnectdump
 https://github.com/FSecureLABS/Azurite
 https://github.com/mburrough/pentestingazureapps
