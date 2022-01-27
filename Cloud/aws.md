@@ -1,7 +1,7 @@
 # AWS
 
 ## AWS basic info
-
+ 
 ```text
 Auth methods:
 • Programmatic access - Access + Secret Key
