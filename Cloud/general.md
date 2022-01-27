@@ -3,7 +3,7 @@
 ## Tools
 
 ```text
-# Non provider specific and general purpose
+# Non provider specific and general purpose   
 # https://github.com/nccgroup/ScoutSuite
 # https://github.com/SygniaLabs/security-cloud-scout
 # https://github.com/initstring/cloud_enum
