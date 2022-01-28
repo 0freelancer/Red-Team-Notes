@@ -12,7 +12,7 @@ strings -a -n 15 file.xxx # Check the entire file and outputs strings longer tha
 
 # Check embedded files
 binwalk file.xxx # Check
-binwalk -e file.xxx # Extract
+binwalk -e file.xxx # Extract 
 
 # Check as binary file in hex
 ghex file.xxx
@@ -32,7 +32,7 @@ python zipcracker.py -f testfile.zip -d passwords.txt
 python zipcracker.py -f testfile.zip -d passwords.txt -o extractdir
 
 # Office documents
-https://github.com/assafmo/xioc
+https://github.com/assafmo/xioc 
 
 # Zip files in website
 pip install remotezip
