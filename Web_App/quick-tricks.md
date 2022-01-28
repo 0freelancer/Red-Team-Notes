@@ -12,7 +12,7 @@ whatweb htttps://url.com
 # https://github.com/maaaaz/webscreenshot
 # https://github.com/sensepost/gowitness
 # https://github.com/michenriksen/aquatone
-
+ 
 # Get error with in input
 %E2%A0%80%0A%E2%A0%80
 
@@ -24,13 +24,13 @@ whatweb htttps://url.com
 /server-status
 /files/..%2f..%2f
 
-# Change default header to accept */*
+# Change default header to accept */*  
 Accept: application/json, text/javascript, */*; q=0.01
 
 # Sitemap to wordlist (httpie)
 http https://target.com/sitemap.xml | xmllint --format - | grep -e 'loc' | sed -r 's|</?loc>||g' > wordlist_endpoints.txt
 
-# Bypass Rate Limits:
+# Bypass Rate Limits:  
 # Use different params: 
     sign-up, Sign-up, SignUp
 # Null byte on params:
@@ -103,7 +103,7 @@ nmap --script "http-*" example.com -p 443
 # Try to connect with netcat to port 80
 nc -v host 80
 
-# Understand URL params with unfurl
+# Understand URL params with unfurl 
 https://dfir.blog/unfurl/
 ```
 
