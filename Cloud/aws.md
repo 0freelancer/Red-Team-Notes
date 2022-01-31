@@ -1,6 +1,6 @@
 # AWS
 
-## AWS basic info
+## AWS basic info 
  
 ```text
 Auth methods:
