@@ -8,7 +8,7 @@ One of your web application (http://xxx.xxxxxxxxxxxx.xxx) has login form and pos
 
 1/ Visit http://xxx.xxxxxxxxxxxx.xxx  
 2/ Submit login details  
-3/ Check the request history  
+3/ Check the request history   
 
 
 ## Request dump
