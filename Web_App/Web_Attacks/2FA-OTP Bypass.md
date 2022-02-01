@@ -2,7 +2,7 @@
 There is lot of different 2FA Bypass Techniques given below. Check it.
 ## Bypass 2FA with null or 000000
  ## 1. Manipulation
-   
+    
    ### Response Manipulation
     1. Check Response of the 2FA Request.
     2. If you Observe “Success”:false
@@ -58,7 +58,7 @@ There is lot of different 2FA Bypass Techniques given below. Check it.
 ## Improper access control bug on the 2FA dialog page
    
     Sometimes a dialog page for entering 2FA is presented as a URL with parameters. Access to such a page with parameters in the URL with cookies that do not         match those used to generate the page or without cookies at all is not safe. But if the developers decided to accept the risks, then you need to go through       a few  important points:
-        1) Does the link for 2FA dialog page expire;
+        1) Does the link for 2FA dialog page expire; 
         2) Whether the link is indexed in search engines.
     If the link has a long period of existence and/or the search engines contain working links for 2FA input/links can be indexed (there are no rules in               robots.txt   / meta tags), then there is a possibility of using a 2FA bypass mechanism on the 2FA input page, in which you can completely bypass entering         login and password,   and gain access to someone else’s account
 
