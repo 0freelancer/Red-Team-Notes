@@ -2,7 +2,7 @@
 
 ```text
 CDN - Domain Fronting 
-
+ 
 **Tools**
 https://github.com/rvrsh3ll/FindFrontableDomains 
 https://github.com/stevecoward/domain-fronting-tools
