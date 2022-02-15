@@ -30,7 +30,7 @@ S3:
         # aws s3api get-bucket-acl --bucket bucket-name-here
         # aws s3 cp readme.txt  s3://bucket-name-here --profile newuserprofile
 
-EBS Volumes:
+EBS Volumes: 
 • Elastic Block Store (EBS)
 • AWS virtual hard disks
 • Can have similar issues to S3 being publicly available
@@ -139,7 +139,7 @@ slurp domain -t example.com
 ### AIO AWS tools
 
 ```text
-# https://github.com/carnal0wnage/weirdAAL
+# https://github.com/carnal0wnage/weirdAAL  
 pip3 install -r requirements
 cp env.sample .env
 vim .env
