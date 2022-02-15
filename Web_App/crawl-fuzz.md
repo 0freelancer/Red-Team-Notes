@@ -21,22 +21,22 @@ ffuf -replay-proxy http:127.0.0.1:8080
 # General
 .htm,.shtml,.php,.html,.js,.txt,.zip,.bak,.asp,.aspx,.xml,.inc
 # Backups
-'.bak','.bac','.old','.000','.~','.01','._bak','.001','.inc','.Xxx'
+'.bak','.bac','.old','.000','.~','.01','._bak','.001','.inc','.Xxx' 
 
 # kr
-# https://github.com/assetnote/kiterunner
+# https://github.com/assetnote/kiterunner 
 kr brute https://whatever.com/ -w onelistforallmicro.txt -x 100 --fail-status-codes 404
 kr scan https://whatever.com/ -w routes-small.kite -A=apiroutes-210228 -x 100 --ignore-length=34
 
 # Best wordlists for fuzzing:
 # https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content
-    - raft-large-directories-lowercase.txt
+    - raft-large-directories-lowercase.txt 
     - directory-list-2.3-medium.txt
     - RobotsDisallowed/top10000.txt 
     - https://github.com/assetnote/commonspeak2-wordlists/tree/master/wordswithext    - 
-    - https://github.com/random-robbie/bruteforce-lists
+    - https://github.com/random-robbie/bruteforce-lists 
     - https://github.com/google/fuzzing/tree/master/dictionaries
-    - https://github.com/six2dez/OneListForAll
+    - https://github.com/six2dez/OneListForAll 
     - AIO: https://github.com/foospidy/payloads
     - Check https://wordlists.assetnote.io/
  # Tip: set "Host: localhost" as header
@@ -45,12 +45,12 @@ kr scan https://whatever.com/ -w routes-small.kite -A=apiroutes-210228 -x 100 --
 gau example.com | unfurl -u paths
 # Get files only
 sed 's#/#\n#g' paths.txt |sort -u
-# Other things
+# Other things 
 gau example.com | unfurl -u keys
 gau example.com | head -n 1000 |fff -s 200 -s 404
 
 # Hadrware devices admin panel
-# https://github.com/InfosecMatter/default-http-login-hunter
+# https://github.com/InfosecMatter/default-http-login-hunter 
 default-http-login-hunter.sh https://10.10.0.1:443/
 
 # Dirsearch
