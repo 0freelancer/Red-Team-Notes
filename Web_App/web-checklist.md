@@ -2,7 +2,7 @@
 
 ## Recon phase
 
-### Small scope
+### Small scope  
 
 * [ ] Identify web server, technologies and database \([whatweb](https://github.com/urbanadventurer/WhatWeb), [webanalyze](https://github.com/rverton/webanalyze)\)
 * [ ] Try to locate /robots.txt /crossdomain.xml /clientaccesspolicy.xml /sitemap.xml and /.well-known/
@@ -105,8 +105,8 @@
 * [ ] In OTP check guessable codes and race conditions
 * [ ] OTP, check response manipulation for bypass
 * [ ] OTP, try bruteforce
-* [ ] If [JWT](../enumeration/webservices/jwt.md), check common flaws
-* [ ] Browser cache weakness \(eg Pragma, Expires, Max-age\)
+* [ ] If [JWT](../enumeration/webservices/jwt.md), check common flaws 
+* [ ] Browser cache weakness \(eg Pragma, Expires, Max-age\) 
 * [ ] After register, logout, clean cache, go to home page and paste your profile url in browser, check for "login?next=accounts/profile" for open redirect or XSS with "/login?next=javascript:alert\(1\);//"
 * [ ] Try login with common [credentials](https://github.com/ihebski/DefaultCreds-cheat-sheet)
 
