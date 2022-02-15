@@ -1,7 +1,7 @@
 # Burp Suite
 
 ## Tips
-
+ 
 ```text
 - If Render Page crash:
 sudo sysctl -w kernel.unprivileged_userns_clone=1
@@ -138,10 +138,10 @@ Works on most of issues likq SQLi
 * [Logger++](https://portswigger.net/bappstore/470b7057b86f41c396a97903377f3d81) Log for every burp tool and allows highlight, filter, grep, export... 
 * [OpenAPI Parser](https://portswigger.net/bappstore/6bf7574b632847faaaa4eb5e42f1757c) Parse and fetch OpenAPI documents directly from a URL
 * [CO2](https://github.com/portswigger/co2): Multiple functions such sqlmapper, cewler
-* [XSSValidator](https://github.com/PortSwigger/xss-validator): XSS intruder payload generator and checker
+* [XSSValidator](https://github.com/PortSwigger/xss-validator): XSS intruder payload generator and checker 
 * [Shelling](https://github.com/ewilded/shelling): command injection payload generator
 * [burp-send-to](https://github.com/bytebutcher/burp-send-to): Adds a customizable "Send to..."-context-menu.
-* [ssrf-king](https://github.com/ethicalhackingplayground/ssrf-king?s=09): Automates SSRF detection
+* [ssrf-king](https://github.com/ethicalhackingplayground/ssrf-king?s=09): Automates SSRF detection 
 
 ## Collaborator SSRF explotation [mindmap](https://github.com/iustin24/SSRF)
 
