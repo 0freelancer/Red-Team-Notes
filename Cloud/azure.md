@@ -17,8 +17,8 @@ https://github.com/nccgroup/azucar
 https://github.com/dafthack/MSOLSpray
 https://github.com/BloodHoundAD/BloodHound
 https://github.com/nccgroup/Carnivore
-https://github.com/CrowdStrike/CRT
-https://github.com/Kyuu-Ji/Awesome-Azure-Pentest
+https://github.com/CrowdStrike/CRT 
+https://github.com/Kyuu-Ji/Awesome-Azure-Pentest  
 https://github.com/cyberark/blobhunter
 
 - Check if company is using Azure AD:
@@ -85,7 +85,7 @@ Microsoft Azure Storage:
 Password Attacks
 • Password Spraying Microsoft Online (Azure/O365)
 • Can spray https://login.microsoftonline.com
---
+-- 
 POST /common/oauth2/token HTTP/1.1
 Accept: application/json
 Content-Type: application/x-www-form-urlencoded
