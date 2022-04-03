@@ -1,7 +1,7 @@
 
 There is lot of different 2FA Bypass Techniques given below. Check it.
 ## Bypass 2FA with null or 000000
- ## 1. Manipulation
+ ## 1. Manipulation  
     
    ### Response Manipulation
     1. Check Response of the 2FA Request.
