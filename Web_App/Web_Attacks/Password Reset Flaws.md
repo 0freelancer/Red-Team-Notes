@@ -58,7 +58,7 @@ https://medium.com/@swapmaurya20/password-reset-poisoning-leading-to-account-tak
 ```
 POST /api/changepass
 [...]
-("form": {"email":"victim@email.tld","password":"12345678"})
+("form": {"email":"victim@email.tld","password":"12345678"})   
 
 ```
 Reference
