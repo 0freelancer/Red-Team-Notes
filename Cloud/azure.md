@@ -20,7 +20,7 @@ https://github.com/nccgroup/Carnivore
 https://github.com/CrowdStrike/CRT 
 https://github.com/Kyuu-Ji/Awesome-Azure-Pentest  
 https://github.com/cyberark/blobhunter
-
+   
 - Check if company is using Azure AD:
 https://login.microsoftonline.com/getuserrealm.srf?login=username@COMPANY.onmicrosoft.com&xml=1
 - If NameSpaceType is "Managed", the company uses Azure AD
