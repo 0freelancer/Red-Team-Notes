@@ -25,7 +25,7 @@ S3:
    ◇ Nslookup can help reveal region
    ◇ S3 URL Format:
       ▪ https://[bucketname].s3.amazonaws.com
-      ▪ https://s3-[region].amazonaws.com/[Org Name]
+      ▪ https://s3-[region].amazonaws.com/[Org Name] 
         # aws s3 ls s3://bucket-name-here --region 
         # aws s3api get-bucket-acl --bucket bucket-name-here 
         # aws s3 cp readme.txt  s3://bucket-name-here --profile newuserprofile
