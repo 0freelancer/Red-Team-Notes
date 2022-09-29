@@ -1,8 +1,8 @@
 # General
   
-## Tools
+## Tools 
 
-```text
+```text 
 # Non provider specific and general purpose   
 # https://github.com/nccgroup/ScoutSuite
 # https://github.com/SygniaLabs/security-cloud-scout
