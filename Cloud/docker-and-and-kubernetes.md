@@ -5,13 +5,13 @@
 ### **Concepts**
 
 * Docker Image
-  * Read only file with OS, libraries and apps
+  * Read only file with OS, libraries and apps 
   * Anyone can create a docker image
-  * Images can be stored in Docker hub \(default public registry\) or private registry
-* Docker Container
+  * Images can be stored in Docker hub \(default pu lic registry\) or private registry
+* Docker Container 
   * Stateful instance of an image with a writable layer
   * Contains everything needed to run your application
-  * Based on one or more images
+  * Based on one or more images 
 * Docker Registry
   * Repository of images
 * Docker Hub
