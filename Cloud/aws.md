@@ -27,10 +27,10 @@ S3:
       ▪ https://[bucketname].s3.amazonaws.com
       ▪ https://s3-[region].amazonaws.com/[Org Name]
         # aws s3 ls s3://bucket-name-here --region 
-        # aws s3api get-bucket-acl --bucket bucket-name-here
+        # aws s3api get-bucket-acl --bucket bucket-name-here 
         # aws s3 cp readme.txt  s3://bucket-name-here --profile newuserprofile
-
-EBS Volumes: 
+ 
+EBS Volumes:  
 • Elastic Block Store (EBS)
 • AWS virtual hard disks
 • Can have similar issues to S3 being publicly available
