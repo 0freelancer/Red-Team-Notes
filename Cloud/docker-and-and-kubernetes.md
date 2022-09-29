@@ -17,7 +17,7 @@
 * Docker Hub
   * Public docker registry
 * Dockerfile
-  * Configuration file that contains instructions for building a Docker image
+  * Configuration file that contains instructions for building a Docker image  
 * Docker-compose file
   * Configuration file for docker-compose
 * Docker Swarm
@@ -212,7 +212,7 @@ ls -l /var/run/docker.sock
 
 ### Attack docker misconfiguration
 
-```text
+```text 
 # Docker container with exposed ports running docker service
 # Docker API is exposed in those docker ports
 # Check query docker API with curl
