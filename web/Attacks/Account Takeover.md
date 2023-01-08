@@ -8,9 +8,9 @@
 
 ### 2. Try re-sign up using same email
 ```
-POST /newaccount
+POST /newaccount 
 [...]
-email=victim@mail.com&password=1234
+email=victim@mail.com&password=1234 
 /////////
 POST /newaccount
 [...]
