@@ -5,7 +5,7 @@ There is lot of different 2FA Bypass Techniques given below. Check it.
    
    ### Response Manipulation
     1. Check Response of the 2FA Request.
-    2. If you Observe “Success”:false
+    2. If you Observe “Success”:false 
     3. Change this to “Success”:true and see if it bypass the 2FA
     or
     See the Response of this request and analyze if the 2FA Code is leaked.
@@ -98,7 +98,7 @@ There is lot of different 2FA Bypass Techniques given below. Check it.
 Bypassing 2FA by abusing the Backup code feature
 Use the above mentioned techniques to bypass Backup Code to remove/reset 2FA restrictions
 
-## 7. When disabling 2FA, the current code or password is not requested.
+## 7. When disabling 2FA, the current code or password is not requested.  
     Check if there is a CSRF or a Clickjacking vulnerability to disable the 2FA.
      1. Assuming that you are able to perform email change or password reset for the victim user or make victim user do it by any means possible.
      2. 2FA is disabled after the email is changed or password is reset. This could
