@@ -27,8 +27,8 @@ X-Forwarded-For: 127.0.0.1
     Try adding a Space Character after a Email. ( Not Encoded ) {"email":"victim@gmail.com "}
     Adding a slash(/) at the end of api endpoint can also Bypass Rate Limit. domain.com/v1/login -> domain.com/v1/login/
 ```
-
-
+  
+ 
 ## 4. Using IP Rotate Burp Extension
 
     Try changing the user-agent, the cookies... anything that could be able to identify you
