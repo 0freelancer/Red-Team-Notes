@@ -49,13 +49,13 @@ email=victim@mail.com
 ```
 https://hackerone.com/reports/226659
 https://hackerone.com/reports/167631
-https://www.acunetix.com/blog/articles/password-reset-poisoning/
+https://www.acunetix.com/blog/articles/password-reset-poisoning/ 
 https://pethuraj.com/blog/how-i-earned-800-for-host-header-injection-vulnerability/
-https://medium.com/@swapmaurya20/password-reset-poisoning-leading-to-account-takeover-f178f5f1de87
+https://medium.com/@swapmaurya20/password-reset-poisoning-leading-to-account-takeover-f178f5f1de87 
 
 
 ### 4. Full Account Takeover via Changing Email And Password of any User through API Parameters
-```
+``` 
 POST /api/changepass
 [...]
 ("form": {"email":"victim@email.tld","password":"12345678"})
